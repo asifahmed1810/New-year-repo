@@ -58,7 +58,7 @@
 .second-bg {
     height: 806px;
     width: 803px;
-   
+
     margin: 0 auto;
     margin-top: 120px;
     display: flex;
@@ -99,7 +99,79 @@
     height: 500px;
     margin-top: 48px;
 }
-.image-content img{
+
+.image-content img {
     height: 100%;
     width: 100%;
 }
+
+/* welcome-party-style */
+.welcome-party-bg {
+    height: 600px;
+    width: 1320px;
+   
+    margin: 0 auto;
+    background-image: url(images/welcome-party.png);
+
+    margin-top: 120px;
+    border-radius: 16px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+}
+
+.welcome-party-bg-content-left {
+    width: 50%;
+    height: 600px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.welcome-party-bg-content-right {
+    width: 50%;
+    height: 600px;
+    
+    margin: 0 auto;
+   
+    width: 349.16px;
+    height: 464.65px;
+    margin-top: 68px;
+    padding-right: 20px;
+}
+
+.welcome-party-bg-content-left h2 {
+    color: rgb(255, 255, 255);
+
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    text-align: left;
+    margin-left: 50px;
+    letter-spacing: 11%;
+
+
+}
+
+.welcome-party-bg-content-left p {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 50px;
+    margin-bottom: 48px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: 50px;
+
+}
+
